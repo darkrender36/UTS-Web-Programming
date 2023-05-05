@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.body {
+    margin: 1em 4em;
+    word-wrap: break-word;
+}
+
+header, nav {
+    background-color: #dadada;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    justify-content: space-between;
+}
+
+nav {
+    justify-content: center;
+    gap: 5em;
+    padding: 0.5em 0;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 3em;
+}
+
+nav button {
+    background-color: #C6A961;
+    padding: 0.4em 0.6em;
+    font-size: 0.55em;
+    border-radius: 0.5em;
+    color: white;
+}
+
+.header-left {
+    font-weight: 700;
+    font-size: 2em;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.header-right {
+    margin-top: 1em;
+    margin-right: 2em;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gold{
+    color: #C6A961;
+}
+
+.green {
+    color: #006F42;
+}
+
+footer {
+    width: 100%;
+    height: 8vh;
+    background-color: #c6a961;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    position: relative;
+    bottom: 0;
+}
+
+@media only screen and (device-width : 414px) and (device-height : 896px) and (orientation : portrait) {
+    .body {
+        margin: 1em 2em;
+        word-wrap: break-word;
+    }
+
+    header, nav {
+        background-color: #dadada;
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    nav {
+        justify-content: center;
+        gap: 5em;
+        padding: 0.5em 0;
+        margin-top: -1.5rem
+    }
+
+    nav a {
+        text-decoration: none;
+        font-size: 4em;
+    }
+
+    nav button {
+        background-color: #C6A961;
+        padding: 0.2em 1em;
+        font-size: 0.3em;
+        border-radius: 0.4em;
+        color: white;
+    }
+
+    .header-left {
+        font-weight: 700;
+        font-size: 1.2em;
+        margin-left: 1em;
+        margin-top: 1.2em;
+    }
+
+    .header-right {
+        margin-top: 1em;
+        margin-right: 2em;
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gold {
+        color: #C6A961;
+    }
+
+    .green {
+        color: #006F42;
+    }
+
+    footer {
+        width: 100%;
+        height: 5vh;
+        background-color: #c6a961;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.9em;
+        position: sticky;
+        bottom: 0;
+    }
+}

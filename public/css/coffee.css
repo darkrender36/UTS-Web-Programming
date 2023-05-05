@@ -1,0 +1,125 @@
+.coffee-container {
+    margin-bottom: 8em;
+}
+
+.coffee-category {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2em 0em;
+}
+
+.coffee-category a {
+    padding: 0.2em 0.4em;
+    text-decoration: none;
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+.btn-coffee-category {
+    border-radius: 0.5em;
+}
+
+.chosen {
+    background-color: #C6A961;
+    border: white solid 1px;
+}
+
+.chosen a {
+    color: white;
+}
+
+.notchosen {
+    background-color: white;
+    border: black solid 2px;
+}
+
+.notchosen a {
+    color: black;
+}
+
+.coffee-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -0.8em;
+}
+
+.coffee-list-content {
+    margin: 1.5em 2em;
+}
+
+.coffee-image {
+    width: 14vw;
+    height: 25vh;
+    border-radius: 0.5em;
+}
+
+.coffee-list-desc {
+    margin: 0.5em 0em;
+    font-size: 1.2em;
+}
+
+@media only screen and (device-width : 414px) and (device-height : 896px) and (orientation : portrait) {
+    .coffee-container {
+        margin-top: 1.45em;
+        margin-bottom: 10em;
+    }
+
+    .coffee-category {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 1.2em 0em;
+        gap: 0.5em;
+    }
+
+    .coffee-category a {
+        padding: 0.2em 0.4em;
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+
+    .btn-coffee-category {
+        border-radius: 0.5em;
+    }
+
+    .chosen {
+        background-color: #C6A961;
+        border: white solid 1px;
+     }
+
+    .chosen a {
+         color: white;
+     }
+
+    .notchosen {
+        background-color: white;
+        border: black solid 2px;
+    }
+
+    .notchosen a {
+        color: black;
+    }
+
+     .coffee-list {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+     }
+
+    .coffee-list-content {
+        margin: 1.5em 2em;
+    }
+
+    .coffee-image {
+        width: 25vw;
+        height: 10vh;
+        border-radius: 0.5em;
+    }
+
+    .coffee-list-desc {
+        margin: 0.5em 0em;
+        font-size: 0.8em;
+    }
+}
